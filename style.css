@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI';
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+        border-bottom: 0.1px solid rgb(199, 199, 199);
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .logo-xtrain{
+        height: 2em;
+    }
+    .clock{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgb(249, 249, 249);
+        border-radius: 10px;
+        background-color: rgb(249, 249, 249);
+        color: rgb(167, 167, 167);
+        font-size: 60px;
+        width: 7em;
+    }
+    .calendar-clock{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 26em;
+        color: rgb(202, 202, 202);
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 84vh;
+        border-bottom: 0.1px solid rgb(199, 199, 199);
+    }   
+    .moduls{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 15em;
+        width: 28em;
+    }
+    .moduls div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        height: 4em;
+        width: 28em;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(241, 241, 241);;
+        border-radius: 1em;
+        box-shadow: 2px 2px 5px rgba(203, 203, 203, 0.5);
+    }
+    .datos-icon{
+        height: 3em;
+    }
+    .pesas-icon{
+        height: 3em;
+    }
+    .nutricion-icon{
+        height: 3em;
+    }
+    footer{
+        height: 50px;
+    }
+    .foot-icon{
+        height: 2em;
+    }
+    .options{
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+} 
